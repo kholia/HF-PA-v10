@@ -1,0 +1,38 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# DC-005-5A-2.0
+#
+DEF DC-005-5A-2.0 J 0 40 Y N 1 L N
+F0 "J" -200 200 50 H V L BNN
+F1 "DC-005-5A-2.0" -200 -200 50 H V L BNN
+F2 "XKB_DC-005-5A-2.0" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "XKB" 0 0 50 H I L BNN "MANUFACTURER"
+F5 "11 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F7 "A0" 0 0 50 H I L BNN "PARTREV"
+DRAW
+P 2 0 0 10 -100 -100 -150 -50 N
+P 2 0 0 10 -150 -50 -200 -100 N
+P 2 0 0 10 100 0 0 0 N
+P 2 0 0 10 0 0 0 -100 N
+P 2 0 0 10 100 150 100 50 N
+A -175 100 25 899 2700 0 0 10 N -175 75 -175 125
+P 2 0 0 10 100 150 50 150 N
+P 2 0 0 10 50 150 50 125 N
+P 2 0 0 10 50 125 50 75 N
+P 2 0 0 10 50 75 50 50 N
+P 2 0 0 10 50 50 100 50 N
+P 2 0 0 10 -175 75 50 75 N
+P 4 0 0 6 -25 -50 25 -50 0 -100 -25 -50 f
+S -168 -100 106 124 0 0 10 f
+X ~ 1 300 100 200 L 40 40 0 0 P 
+X ~ 3 300 0 200 L 40 40 0 0 P 
+X ~ 2 300 -100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

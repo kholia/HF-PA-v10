@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UCC27517DBVR")(type "KiCad")(uri "${KIPRJMOD}/libraries/UCC27517DBVR.kicad_sym")(options "")(descr ""))
+)
